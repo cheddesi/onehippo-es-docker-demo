@@ -46,5 +46,7 @@ docker logs hippo01
 ```
 ## Appendix
 * LINKS to git repos
+  * https://hub.docker.com/r/cheddesi/onehippo-es-demo/
+  * https://github.com/cheddesi/camel-events-support
 * LINKS to helpful articles
-* Instructions to generating your own certs
+* Instructions to generate own certs
