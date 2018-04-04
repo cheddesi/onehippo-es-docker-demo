@@ -45,8 +45,10 @@ docker logs kibana01
 docker logs hippo01
 ```
 ## Appendix
-* LINKS to git repos
+* [Recorded Demo](others/Demo.mp4)
+* Links to git repos
   * https://hub.docker.com/r/cheddesi/onehippo-es-demo/
   * https://github.com/cheddesi/camel-events-support
-* LINKS to helpful articles
+* Links to helpful articles
+  * https://www.onehippo.org/library/search-engine-integration/external-search-engine-integration.html
 * Instructions to generate own certs
