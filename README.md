@@ -1,6 +1,13 @@
 # OneHipp and Elaticsearch integration containerized demo
 This project is fully containerized demo of Integrating OneHippo CMS with Elasticsearch as indexing platform.
+## About the OneHippo integration with Elasticsearch
+Following diagrams represents the integration approach followed in this demo.
+
+![OneHippoES Setup](images/onehippoesint.png)
+
+## About the container setup
 Follow diagram presents the services part of this demo pack.
+
 ![Containers Setup](images/containers.png)
 
 ## Pre-requisites
@@ -38,5 +45,6 @@ docker logs kibana01
 docker logs hippo01
 ```
 ## Appendix
-LINKS to git repos
-LINKS to helpful articles
+* LINKS to git repos
+* LINKS to helpful articles
+* Instructions to generating your own certs
