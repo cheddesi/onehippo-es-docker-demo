@@ -20,7 +20,10 @@ docker-machine ssh default
 sudo sysctl -w vm.max_map_count=262144
 exit
 ```
-Allocate enough RAM to the docker machine. 4GB is recommended.
+### Important Notes
+* Allocate enough RAM to the docker machine. 4GB is recommended.
+* Mount the current directory as a shared folder to Docker virtual machine, Elasticsearch requires the certificates accessible from a volumen.
+
 ## Running the demo
 1. Clone the git repo to local machine
 ```sh
@@ -44,6 +47,8 @@ docker logs es01
 docker logs kibana01
 docker logs hippo01
 ```
+_Note that it would take around 2-5 minutes for the hippo01 container to come-up._
+
 ## Appendix
 * [Recorded Demo](others/Demo.mp4)
 * Links to git repos
