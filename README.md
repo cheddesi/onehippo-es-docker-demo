@@ -22,7 +22,7 @@ exit
 ```
 ### Important Notes
 * Allocate enough RAM to the docker machine. 4GB is recommended.
-* Mount the current directory as a shared folder to Docker virtual machine, Elasticsearch requires the certificates accessible from a volumen.
+* Mount the current directory as a shared folder to Docker virtual machine, Elasticsearch requires the certificates accessible from a volume.
 
 ## Running the demo
 1. Clone the git repo to local machine
